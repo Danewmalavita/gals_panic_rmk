@@ -7,8 +7,8 @@ from enum import Enum
 pygame.init()
 
 # Constantes del juego
-WINDOW_WIDTH = 800
-WINDOW_HEIGHT = 600
+WINDOW_WIDTH = 1280
+WINDOW_HEIGHT = 720
 FPS = 60
 
 # Colores
