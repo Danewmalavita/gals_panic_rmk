@@ -2,7 +2,7 @@
 
 Un remake moderno del clásico juego arcade Gals Panic desarrollado en Python con Pygame.
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 gals_panic_remake/
@@ -21,7 +21,7 @@ gals_panic_remake/
 └── requirements.txt      # Dependencias del proyecto
 ```
 
-## 🎮 Características
+## Características
 
 ### **Sistema de Menús**
 - **Menú Principal**: Nuevo Juego, Opciones, Salir
@@ -41,7 +41,7 @@ gals_panic_remake/
 - **Hunter**: Te persigue y ataca tu línea de corte
 - **Fast**: Enemigo rápido y agresivo
 
-## 🚀 Instalación y Ejecución
+## Instalación y Ejecución
 
 ### **Requisitos**
 - Python 3.7 o superior
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 🎯 Controles
+## Controles
 
 ### **Menús**
 - **Mouse**: Navegación por botones
@@ -86,7 +86,7 @@ python main.py
 - **F11**: Alternar pantalla completa
 - **F12**: Tomar captura de pantalla
 
-## 🎲 Mecánicas del Juego
+## Mecánicas del Juego
 
 ### **Objetivo**
 Corta áreas del campo de juego para revelar la imagen oculta. Necesitas revelar el 75% del área para completar el nivel.
@@ -114,7 +114,7 @@ Corta áreas del campo de juego para revelar la imagen oculta. Necesitas revelar
 - **Difícil**: 4 enemigos (incluye hunter)
 - **Extremo**: 5 enemigos (múltiples hunters)
 
-## 🔧 Personalización
+## Personalización
 
 ### **Modificar Configuración**
 Edita `scripts/config.py` para cambiar:
@@ -128,7 +128,7 @@ Edita `scripts/config.py` para cambiar:
 - **Sonidos**: Coloca en `assets/sounds/`
 - **Fuentes**: Coloca en `assets/fonts/`
 
-## 🐛 Resolución de Problemas
+## Resolución de Problemas
 
 ### **Error de importación pygame**
 ```bash
@@ -143,7 +143,7 @@ Verifica que no tengas aplicaciones que interfieran con la aceleración gráfica
 - Reduce la resolución en `config.py`
 - Verifica drivers gráficos actualizados
 
-## 🚧 Próximas Características
+## Próximas Características
 
 - [ ] Sistema de corte real con flood fill
 - [ ] Imágenes de fondo para revelar
@@ -153,7 +153,7 @@ Verifica que no tengas aplicaciones que interfieran con la aceleración gráfica
 - [ ] Sistema de puntuaciones altas
 - [ ] Mejores gráficos y animaciones
 
-## 📝 Desarrollo
+## Desarrollo
 
 ### **Arquitectura del Código**
 - **main.py**: GameManager principal y bucle de juego
@@ -168,9 +168,10 @@ Verifica que no tengas aplicaciones que interfieran con la aceleración gráfica
 4. Push a la rama (`git push origin feature/nueva-caracteristica`)
 5. Crear Pull Request
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto es un remake educativo del clásico Gals Panic para fines de aprendizaje y demostración de programación con Python y Pygame.
 
 ---
-**¡Disfruta del juego!** 🎮
+
+**¡Disfruta del juego!** 
