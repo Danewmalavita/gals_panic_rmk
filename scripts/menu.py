@@ -2,6 +2,7 @@
 
 import pygame
 import sys
+import random
 from .config import *
 
 class Button:
@@ -86,10 +87,10 @@ class MainMenu:
         self.particles = []
         for i in range(50):
             self.particles.append({
-                'x': pygame.random.randint(0, WINDOW_WIDTH),
-                'y': pygame.random.randint(0, WINDOW_HEIGHT),
-                'speed': pygame.random.uniform(0.5, 2),
-                'size': pygame.random.randint(1, 3)
+                'x': random.randint(0, WINDOW_WIDTH),
+                'y': random.randint(0, WINDOW_HEIGHT),
+                'speed': random.uniform(0.5, 2),
+                'size': random.randint(1, 3)
             })
     
     def handle_events(self, event):
@@ -112,7 +113,7 @@ class MainMenu:
             particle['y'] += particle['speed']
             if particle['y'] > WINDOW_HEIGHT:
                 particle['y'] = -10
-                particle['x'] = pygame.random.randint(0, WINDOW_WIDTH)
+                particle['x'] = random.randint(0, WINDOW_WIDTH)
     
     def draw(self):
         self.screen.fill(BLACK)
